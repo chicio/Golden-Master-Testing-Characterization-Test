@@ -26,8 +26,55 @@ public class TravelsAdapterTest {
         });
         assertThat(
                 builder.toString(),
-                is("Travel{orderId=0, flights='{\"from\":\"MXP\",\"to\":\"FCO\",\"flightId\":\"1111\"," +
-                        "\"direction\":\"OUTBOUND\",\"airline\":\"U2\",\"departure\":\"2018-04-20T12:00:00\",\"boardingCard\":{\"id\":\"485\",\"firstName\":\"Fabrizio\",\"lastName\":\" Duroni\",\"seat\":\"V23\",\"urls\":[\"http://aboardingcard/resource1\",\"http://aboardingcard/resource2\",\"http://aboardingcard/resource3\"]}}', flightId='1111', airline='U2', departureAirport='2018-04-20T12:00:00', arrivalAirport='FCO'}\nTravel{orderId=0, flights='{\"from\":\"FCO\",\"to\":\"MXP\",\"flightId\":\"1112\",\"direction\":\"RETURN\",\"airline\":\"AA\",\"departure\":\"2018-05-01T10:00:00\",\"boardingCard\":{\"id\":\"486\",\"firstName\":\"Chiara\",\"lastName\":\"Polito\",\"seat\":\"A15\",\"urls\":[\"http://aboardingcard/resource1\",\"http://aboardingcard/resource2\",\"http://aboardingcard/resource3\"]}}', flightId='1112', airline='AA', departureAirport='2018-05-01T10:00:00', arrivalAirport='MXP'}\n")
+                is("Travel{" +
+                            "orderId=0, " +
+                            "flights='{" +
+                                "\"from\":\"MXP\"," +
+                                "\"to\":\"FCO\"," +
+                                "\"flightId\":\"1111\"," +
+                                "\"direction\":\"OUTBOUND\"," +
+                                "\"airline\":\"U2\"," +
+                                "\"departure\":\"2018-04-20T12:00:00\"," +
+                                "\"boardingCard\":{" +
+                                    "\"id\":\"485\"," +
+                                    "\"firstName\":\"Fabrizio\"," +
+                                    "\"lastName\":\" Duroni\"," +
+                                    "\"seat\":\"V23\"," +
+                                    "\"urls\":[" +
+                                        "\"http://aboardingcard/resource1\"," +
+                                        "\"http://aboardingcard/resource2\"," +
+                                        "\"http://aboardingcard/resource3\"" +
+                                "]}}', " +
+                                "flightId='1111', " +
+                                "airline='U2', " +
+                                "departureAirport='MXP', " +
+                                "arrivalAirport='FCO'" +
+                          "}\n" +
+                        "Travel{" +
+                            "orderId=0, " +
+                            "flights='{" +
+                                "\"from\":\"FCO\"," +
+                                "\"to\":\"MXP\"," +
+                                "\"flightId\":\"1112\"," +
+                                "\"direction\":\"RETURN\"," +
+                                "\"airline\":\"AA\"," +
+                                "\"departure\":\"2018-05-01T10:00:00\"," +
+                                "\"boardingCard\":{" +
+                                    "\"id\":\"486\"," +
+                                    "\"firstName\":\"Chiara\"," +
+                                    "\"lastName\":\"Polito\"," +
+                                    "\"seat\":\"A15\"," +
+                                    "\"urls\":[" +
+                                        "\"http://aboardingcard/resource1\"," +
+                                        "\"http://aboardingcard/resource2\"," +
+                                        "\"http://aboardingcard/resource3\"" +
+                                    "]}}', " +
+                                    "flightId='1112', " +
+                                    "airline='AA', " +
+                                    "departureAirport='FCO', " +
+                                    "arrivalAirport='MXP'" +
+                        "}\n"
+                )
         );
     }
 
@@ -77,6 +124,7 @@ public class TravelsAdapterTest {
                 "      }\n" +
                 "    ]\n" +
                 "  }\n" +
-                "}");
+                "}"
+        );
     }
 }

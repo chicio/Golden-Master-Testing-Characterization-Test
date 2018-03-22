@@ -30,7 +30,7 @@ public class TravelsAdapter {
             }
             String flightNumber = nodeFlight.get("flightId").textValue();
             String arrivalAirport = nodeFlight.get("to").textValue();
-            String departureAirport = nodeFlight.get("departure").textValue();
+            String departureAirport = nodeFlight.get("from").textValue();
             String airline = nodeFlight.get("airline").textValue();
             travels.add(new Travel(
                             orderId,
