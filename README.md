@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/chicio/Golden-Master-Testing-Characterization-Test.svg?branch=master)](https://travis-ci.org/chicio/Golden-Master-Testing-Characterization-Test)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/chicio/Golden-Master-Testing-Characterization-Test/master/LICENSE.md)
 
-An example java project created for my blog post ["Golden master testing aka Characterization test: a powerful tool to win your fight against legacy code"](https://www.fabrizioduroni.it/2017/07/25/a-first-approach-to-contract-test.html "Golden master testing aka Characterization test: a powerful tool to win your fight against legacy code").
+An example java project created for my blog post ["Golden master testing aka Characterization test: a powerful tool to win your fight against legacy code"](https://www.fabrizioduroni.it/2018/03/20/golden-master-test-characterization-test-legacy-code.html "Golden master testing aka Characterization test: a powerful tool to win your fight against legacy code").
 
 ### Description
 
@@ -17,4 +17,4 @@ creating a characterization test, one must observe what outputs occur for a give
 observation that the legacy code gives a certain output based on given inputs, then a test can be written that
 asserts that the output of the legacy code matches the observed result for the given inputs.
 
-Click [here](https://www.fabrizioduroni.it/2017/07/25/a-first-approach-to-contract-test.html "Golden master testing aka Characterization test: a powerful tool to win your fight against legacy code") to read the post.
+Click [here](https://www.fabrizioduroni.it/2018/03/20/golden-master-test-characterization-test-legacy-code.html "Golden master testing aka Characterization test: a powerful tool to win your fight against legacy code") to read the post.
