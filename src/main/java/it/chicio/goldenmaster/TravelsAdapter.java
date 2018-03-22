@@ -11,7 +11,8 @@ public class TravelsAdapter {
     public List<Travel> adapt(JsonNode jsonNode) throws InvalidTravelException {
         List<Travel> travels = new ArrayList<>();
         JsonNode payloadNode = jsonNode.with("data");
-        if (payloadNode.findValue("orderId") == null || StringUtils.isBlank(payloadNode.findValue("orderId").textValue())) {
+        if (payloadNode.findValue("orderId") == null ||
+                StringUtils.isBlank(payloadNode.findValue("orderId").textValue())) {
             throw new InvalidTravelException("Invalid order id");
         }
         long orderId = payloadNode.findValue("orderId").asLong();
