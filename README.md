@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/chicio/Golden-Master-Testing-Characterization-Test.svg?branch=master)](https://travis-ci.org/chicio/Golden-Master-Testing-Characterization-Test)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/chicio/Golden-Master-Testing-Characterization-Test/master/LICENSE.md)
 
-An example java project created for my blog post ["Golden master testing aka Characterization test: a powerful tool to win your fight against legacy code"](https://www.fabrizioduroni.it/2018/03/20/golden-master-test-characterization-test-legacy-code.html "Golden master testing aka Characterization test: a powerful tool to win your fight against legacy code").
+An example java project created for my blog post ["Golden master testing aka Characterization test: a powerful tool to win your fight against legacy code"](https://www.fabrizioduroni.it/2018/03/20/golden-master-test-characterization-test-legacy-code/ "Golden master testing aka Characterization test: a powerful tool to win your fight against legacy code").
 
 ### Description
 
